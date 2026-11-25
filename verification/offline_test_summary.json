@@ -1,0 +1,12 @@
+{
+  "tests": 211,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "passed": true,
+  "elapsed_seconds": 6.726,
+  "live_http": "blocked",
+  "blocked_network_attempts": 0,
+  "test_temporary_directory": "D:\\GitHubMyReasearch\\CausalRCA_Move_Edition\\tmp\\ra_tests",
+  "scope": "Unit/integration tests with fixture telemetry and mocked model replies; no accuracy benchmark."
+}

@@ -1,0 +1,18 @@
+dataset_root: D:/GitHubMyReasearch/CausalRCA_Move_Edition/OpenRCA_v2_dataset_process_level_case
+results_root: results
+timezone: Asia/Shanghai
+# All values below are local engineering settings, not reported paper values.
+recursion_limit: 1000
+case_concurrency: 1
+tool_concurrency: 4
+query_timeout_seconds: 60
+query_max_rows: 1000
+query_max_characters: 200000
+duckdb_memory_limit: 1GB
+duckdb_threads: 2
+verify_data_hashes: true
+
+# Stop the batch only after the retry allowance for an API call is exhausted.
+api_error_policy: stop_batch
+# Legacy value retained for compatibility; retries are configured in llm_config.py.
+effective_max_api_retries: 5

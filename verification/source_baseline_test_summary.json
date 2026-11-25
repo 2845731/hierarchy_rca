@@ -1,0 +1,21 @@
+{
+  "source_tests": 163,
+  "failures": 6,
+  "errors": 8,
+  "failed_tests": [
+    "test_exhausted_review_explicit_checkpoint_submission_uses_old_version (test_sql_evidence.HandoffTests.test_exhausted_review_explicit_checkpoint_submission_uses_old_version)",
+    "test_program_assembly_replay_failure_is_not_a_model_retry (test_sql_evidence.HandoffTests.test_program_assembly_replay_failure_is_not_a_model_retry)",
+    "test_lookup_rejects_single_and_combined_oversize_without_truncation (test_synthesis_design.SynthesisDesignTests.test_lookup_rejects_single_and_combined_oversize_without_truncation)",
+    "test_lookup_returns_exact_originals_once_and_reports_unknown_ids (test_synthesis_design.SynthesisDesignTests.test_lookup_returns_exact_originals_once_and_reports_unknown_ids)",
+    "test_oversized_working_set_stops_before_model_call (test_synthesis_design.SynthesisDesignTests.test_oversized_working_set_stops_before_model_call)",
+    "test_working_set_preserves_versions_reviews_and_original_objects (test_synthesis_design.SynthesisDesignTests.test_working_set_preserves_versions_reviews_and_original_objects)",
+    "test_l1_short_selection_flows_through_l2_meta_and_final_answer (test_l1_evidence_choices.EvidenceChoiceTests.test_l1_short_selection_flows_through_l2_meta_and_final_answer)",
+    "test_program_assembly_does_not_bypass_failed_evidence_replay (test_l1_root_only.RootOnlyTests.test_program_assembly_does_not_bypass_failed_evidence_replay)",
+    "test_reminder_then_submit_reaches_meta_and_program_assembly (test_l1_root_only.RootOnlyTests.test_reminder_then_submit_reaches_meta_and_program_assembly)",
+    "test_l2_failure_returns_to_l1_and_other_chain_can_complete (test_sql_evidence.HandoffTests.test_l2_failure_returns_to_l1_and_other_chain_can_complete)",
+    "test_meta_failure_saves_reason_without_formal_answer (test_sql_evidence.HandoffTests.test_meta_failure_saves_reason_without_formal_answer)",
+    "test_generation_attempts_do_not_nest_json_retries (test_synthesis_design.SynthesisDesignTests.test_generation_attempts_do_not_nest_json_retries)",
+    "test_meta_conclusion_and_followup_go_to_existing_owner (test_synthesis_design.SynthesisDesignTests.test_meta_conclusion_and_followup_go_to_existing_owner)",
+    "test_meta_receives_reason_on_each_decision (test_synthesis_recovery.SynthesisRecoveryTests.test_meta_receives_reason_on_each_decision)"
+  ]
+}

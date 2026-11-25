@@ -1,0 +1,100 @@
+{
+  "created_utc": "2026-11-16T15:20:05.966072+00:00",
+  "source_run": "D:\\GitHubMyReasearch\\CausalRCA_Move_Edition\\openrca_v2_causal hierarchy_RCA_codex\\versions\\v004_from_original_baseline_lite\\Result\\20261116_212127_455220_MiniMax-M3.1-Flash",
+  "case_snapshot": [
+    "case_0001",
+    "case_0002",
+    "case_0003",
+    "case_0004",
+    "case_0005",
+    "case_0006",
+    "case_0007",
+    "case_0008",
+    "case_0009",
+    "case_0010",
+    "case_0011",
+    "case_0012",
+    "case_0013",
+    "case_0016"
+  ],
+  "completed_cases": 14,
+  "settings": {
+    "context_exact_dedup": true,
+    "context_prefix_cache": true
+  },
+  "totals": {
+    "calls": 1521,
+    "encoded_calls": 1288,
+    "roundtrip_matches": 1521,
+    "before_input_chars": 73556387,
+    "after_input_chars": 69193010,
+    "before_input_utf8_bytes": 97290123,
+    "after_input_utf8_bytes": 92525096,
+    "input_chars_reduction_percent": 5.932,
+    "input_utf8_bytes_reduction_percent": 4.898
+  },
+  "roles": {
+    "l1": {
+      "calls": 1110,
+      "encoded_calls": 1006,
+      "roundtrip_matches": 1110,
+      "before_input_chars": 57737257,
+      "after_input_chars": 54517475,
+      "before_input_utf8_bytes": 76231917,
+      "after_input_utf8_bytes": 72871489,
+      "input_chars_reduction_percent": 5.577,
+      "input_utf8_bytes_reduction_percent": 4.408
+    },
+    "l2": {
+      "calls": 168,
+      "encoded_calls": 77,
+      "roundtrip_matches": 168,
+      "before_input_chars": 4067522,
+      "after_input_chars": 4018953,
+      "before_input_utf8_bytes": 5726592,
+      "after_input_utf8_bytes": 5687011,
+      "input_chars_reduction_percent": 1.194,
+      "input_utf8_bytes_reduction_percent": 0.691
+    },
+    "meta": {
+      "calls": 42,
+      "encoded_calls": 42,
+      "roundtrip_matches": 42,
+      "before_input_chars": 2780691,
+      "after_input_chars": 2289083,
+      "before_input_utf8_bytes": 4321563,
+      "after_input_utf8_bytes": 3563483,
+      "input_chars_reduction_percent": 17.679,
+      "input_utf8_bytes_reduction_percent": 17.542
+    },
+    "seed": {
+      "calls": 181,
+      "encoded_calls": 143,
+      "roundtrip_matches": 181,
+      "before_input_chars": 6095394,
+      "after_input_chars": 5712891,
+      "before_input_utf8_bytes": 7621192,
+      "after_input_utf8_bytes": 7254241,
+      "input_chars_reduction_percent": 6.275,
+      "input_utf8_bytes_reduction_percent": 4.815
+    },
+    "synthesis": {
+      "calls": 20,
+      "encoded_calls": 20,
+      "roundtrip_matches": 20,
+      "before_input_chars": 2875523,
+      "after_input_chars": 2654608,
+      "before_input_utf8_bytes": 3388859,
+      "after_input_utf8_bytes": 3148872,
+      "input_chars_reduction_percent": 7.683,
+      "input_utf8_bytes_reduction_percent": 7.082
+    }
+  },
+  "skipped": [],
+  "limitations": [
+    "Replays existing successful-case requests only; no new model or SQL calls.",
+    "Sizes include system/user text and added instruction, not API wrappers.",
+    "Character/UTF-8 byte reduction is not token, cost, latency or accuracy measurement.",
+    "Roundtrip proves representation equality, not subsequent model behavior."
+  ]
+}

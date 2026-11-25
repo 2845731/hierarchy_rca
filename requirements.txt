@@ -1,0 +1,10 @@
+# 本机已有参考环境时无需安装；另建环境请使用 Python 3.11 或以上版本。
+duckdb>=1.5,<1.6
+sqlglot>=30,<31
+pyarrow>=21
+pandas>=2
+openai
+httpx[socks]
+python-dotenv
+PyYAML
+pydantic>=2,<3

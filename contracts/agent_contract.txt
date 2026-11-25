@@ -1,0 +1,22 @@
+## Output schema (STRICT JSON, no markdown / commentary)
+
+JSON shape of AgentRCAOutput as in Section F.3: root_causes[] of {service, fault_kind, evidence[]}, and propagation[] of {from, to, evidence[]}, where every evidence is {kind, sql, claim}.
+
+## fault_kind enum (pick exactly one per root_cause)
+
+pod_failure, pod_unavailable, network_delay, network_loss, network_partition, network_corrupt, network_duplicate, network_bandwidth_limit, http_aborted, http_slow, http_payload_modified, http_response_status_modified, cpu_stress, jvm_thread_cpu_stress, mem_stress, jvm_heap_stress, jvm_gc_pressure, jvm_method_exception, jvm_jdbc_exception, jvm_method_latency, jvm_jdbc_latency, jvm_method_mutated, dns_resolution_failed, dns_resolution_wrong, clock_skew
+
+## Field rules
+• Service names must match strings present in the data; do not invent.
+• One entry per distinct root cause; do NOT collapse multiple distinct faults into a single root_cause.
+
+## SQL rules
+• DuckDB on this case dir's parquets.
+• SELECT only; one statement per sql field. No DDL/DML/ATTACH/etc.
+• Reference parquets via read_parquet('<file>.parquet') with bare filenames, OR directly FROM abnormal_traces (each *.parquet is mounted as a same-named view).
+• Each evidence.sql MUST be the actual SQL, not a description.
+• Each evidence.claim is the ≤20-word natural-language assertion the SQL rows back.
+
+## Hard rules
+• EVERY root_cause carries ≥1 evidence (real runnable SQL).
+• EVERY propagation edge carries ≥1 evidence. Do not emit edges you cannot back with a concrete trace or metric query.

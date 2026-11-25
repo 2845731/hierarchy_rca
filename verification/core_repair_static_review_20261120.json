@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-20",
+  "review_kind": "static file inspection only",
+  "python_executed": false,
+  "tests_executed": false,
+  "model_called": false,
+  "dependencies_installed": false,
+  "environment": "D:/GitHubMyReasearch/CausalRCA_Move_Edition/_environment_cache/causalrca_deepseek",
+  "installed_metadata": {
+    "sqlglot": "30.33.0",
+    "duckdb": "1.5.6",
+    "pandas": "2.3.3",
+    "pyarrow": "21.0.0"
+  },
+  "files": [
+    {
+      "file": "workflow.py",
+      "before_sha256": "2C49935DED7B983120A121D1C1C48809F30FFA68C0040506F1939ED84F484002",
+      "after_sha256": "82C890FE8104F70C0FBFB50B0A3E6F89DAEAD0C64A5889A354AE2F1BC87AF267"
+    },
+    {
+      "file": "agents\\l1_frontier.py",
+      "before_sha256": "BD9CBE1E7A80B81BA96E083489D32D3BCE81EF275CAB09092F1E27428E093753",
+      "after_sha256": "0A1300E91D3585C32545F1E7B27B2E66363409F9E91336C5DCDE92A497B12972"
+    },
+    {
+      "file": "agents\\l1.py",
+      "before_sha256": "9F3737D8A3905D4B9BF7CE514994378172A0775BA5A2DD1A110C4F491CDBC4B8",
+      "after_sha256": "FAD049A34A6166522157FB785F7DEA7DB085B8195C4108AA8E2B0787268112E4"
+    },
+    {
+      "file": "agents\\l2.py",
+      "before_sha256": "4D285966F77EACC490DF3A44BF29C3C289A505132B13739C05BDBAFFAC487697",
+      "after_sha256": "5E2025F54577CE45E676B34CD4CD68F51795B12E19A996287126DD74B69C5745"
+    },
+    {
+      "file": "agents\\loop.py",
+      "before_sha256": "A0608E900522CA86733CE5FE75B45750BC477246C1597F79EC6D82155AA9187A",
+      "after_sha256": "D928FD02A9C54111D3381908A1499C0E611EF11C441BD5D678452E3A55B2AD64"
+    },
+    {
+      "file": "agents\\meta.py",
+      "before_sha256": "8E70F0446DF25C4BD56BDE793A6FE6B6D717AD9A13ED8DCC8EFD24AA5ABEAFAE",
+      "after_sha256": "230E1C774023ACA533A920D8B1EDBF7F55E0E66C32FE5DB270656D53D0D20C56"
+    },
+    {
+      "file": "agents\\seed.py",
+      "before_sha256": "6A3C22A267D6D3DD4A47A7373AC9222B640586734EC00F69F4962B8C44750BFD",
+      "after_sha256": "5C96A7A56A994379D12376DF60BF11EEA3CAB315D6F7956969AE9A3AEC6ADE9B"
+    },
+    {
+      "file": "agents\\synthesis.py",
+      "before_sha256": "366733ED698D3327D4E4EDE94C27EFC2349D5B9E2CDB1769CC427333CD4E18F0",
+      "after_sha256": "2DF3EC4F3AD016A286318E747FA5184E6727918F45B8038652A5ACF2D47B6F5F"
+    },
+    {
+      "file": "prompts\\l1_runtime.md",
+      "before_sha256": "54564BD05DBCE77E4BD6FB573CC7EFD0CDABA02427568DEC65F6D76089186857",
+      "after_sha256": "8B67623F999EB65839658AACE740CA23BBD148C9EFC8C93BEC3A960181B21AC3"
+    },
+    {
+      "file": "prompts\\l2_runtime.md",
+      "before_sha256": "650A6AE2067A827BF4F8C3D8F63C3B55B368FA9ACB9234AD81AE5988FEF78E71",
+      "after_sha256": "14A02141916FD9D5D68022FFE9B8D792F5CC9AEC45314CEC0B901201A3EDBA73"
+    },
+    {
+      "file": "prompts\\meta_runtime.md",
+      "before_sha256": "106469ED4783600B7E0982DAE332125F2AD642B17E0CECA1731168AD9659424F",
+      "after_sha256": "AB4ACFD7FF367BB87E82695A8AAC87A6441F484C4AC3EF7F29812CD6E2C3553C"
+    },
+    {
+      "file": "prompts\\seed_runtime.md",
+      "before_sha256": "E3C9541F345B30E768299DDFE2D5313C7E041FEBD26F67592F6795142D9591BC",
+      "after_sha256": "F406F08AD77B642A4D54037AB2F3EBB610AF2377B3321F2084FB4EE2CB7558A0"
+    },
+    {
+      "file": "prompts\\synthesis_runtime.md",
+      "before_sha256": "BF2F47DCD602EE208DBEE3F63D5DBE4958E326B39E19F455230D8D7D789819BE",
+      "after_sha256": "1A25A7A3A963D5B643E5A4D327B3F9355F67B8E068198A638528284666514419"
+    },
+    {
+      "file": "tests\\test_long_path_reading.py",
+      "before_sha256": "273114C7A7D4BFE9B5626A80FCE008F290C3149A30148FEC0B1B06002500380E",
+      "after_sha256": "7F1DC99653F793B749370C54E482C3BC102633085E37719C00AED0008FD62260"
+    },
+    {
+      "file": "tests\\test_synthesis_design.py",
+      "before_sha256": "A2B2B1BFC1F7EBB220AD617B023E22CAC061FF0FBE5358DC3F6E2E128D2E3F52",
+      "after_sha256": "E37ADF9389C167750B379F4D5C575E8F2306CE748CF007AA261F46ADEB3602E9"
+    },
+    {
+      "file": "tools\\trace_graph.py",
+      "before_sha256": "34787D51169D52B90E016FC2DBEDD868A8F629CAA9997E11424042DE7FCB2563",
+      "after_sha256": "1FDA4412D2BFB062E73EB6D7D911E81E0130ED15642E6F3B52B286194FAE65D5"
+    }
+  ],
+  "added_tests": "tests/test_core_repairs.py",
+  "test_case_count": 8,
+  "deferred": "external dependency task type and formal cross-source edges"
+}

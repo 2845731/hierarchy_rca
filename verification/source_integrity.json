@@ -1,0 +1,45 @@
+{
+  "checked_utc": "2026-11-16T15:49:42.489272+00:00",
+  "copy_started_utc": "2026-11-16T15:00:26.274234+00:00",
+  "source_files_checked": 69,
+  "source_files_modified_since_copy": [],
+  "new_copy_modified_files": [
+    "README.md",
+    "agents/loop.py",
+    "clients/minimax_client.py",
+    "llm_config.py",
+    "reference.py",
+    "run.py",
+    "settings.py",
+    "tests/test_l1_evidence_choices.py",
+    "tests/test_l1_root_only.py",
+    "tests/test_sql_evidence.py",
+    "tests/test_synthesis_design.py",
+    "tests/test_synthesis_recovery.py",
+    "tools/telemetry.py"
+  ],
+  "core_files_identical_sha256": {
+    "workflow.py": true,
+    "state.py": true,
+    "agents/seed.py": true,
+    "agents/l1.py": true,
+    "agents/l1_frontier.py": true,
+    "agents/l1_context.py": true,
+    "agents/l2.py": true,
+    "agents/meta.py": true,
+    "agents/synthesis.py": true,
+    "output_contract.py": true
+  },
+  "existing_settings_changed": {},
+  "new_settings": {
+    "context_exact_dedup": true,
+    "context_prefix_cache": true,
+    "http_max_concurrent_requests": 4
+  },
+  "providers_identical": true,
+  "new_results_file_count": 0,
+  "method": "At initial copy all 69 source/config files were verified SHA-256 identical to copy. Final checks: original modification times, core file SHA-256 source-vs-new, config AST equality. Active old Result intentionally excluded.",
+  "missing_source_files_in_copy": [],
+  "existing_settings_count": 34,
+  "credentials_file_identical": true
+}
